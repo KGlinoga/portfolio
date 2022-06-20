@@ -12,8 +12,13 @@ body {
 header {
     /* padding: 15px; */
 }
+
+.flex-container {
+    display: flex;
+    flex-wrap:wrap;
+}
 .navbar {
-    display: inline-block;
+    /* display: inline-block; */
     background-color: darkcyan;
     width: 100%;
     /* padding: 15px 15px 15px 0; */
@@ -40,7 +45,9 @@ header {
     background-color: darkcyan;
     display: inline;
     position: relative;
+    left: 70%;
     padding: 2px;
+
 }
 
 .navbar h3 {
@@ -51,7 +58,7 @@ header {
 }
 
 card h3{
-    color: red;
+    color: darkcyan;
 }
 /* YESSS we got the properties to cascade to all the cards! */
 
@@ -64,6 +71,6 @@ card h3{
 } */
 
 card p {
-    color: green;
+    color: darkcyan;
     font-size: large;
 }
