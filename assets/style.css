@@ -4,17 +4,25 @@
 }
 
 .navbar {
-
+    display: block;
+    background-color: darkcyan;
 }
 
-/* placeholding - we don't yet know how to do a hamburger menu, but hopefully will by the time we submit this assignment! */
+.navbar h1 {
+    background-color: whitesmoke;
+}
+
+/* placeholding - we don't yet know how to do a hamburger menu, but hopefully will by the time we submit this assignment! */                
 .hamburger {
 
 }
 
 /* OK this one isn't working the way I'd like just yet..  */
-.navLinks{
-    color:cadetblue
+
+.navLinks li{
+    color:cadetblue;
+    display: inline;
+    text-align: right;
 }
 
 .sectionTitles {
