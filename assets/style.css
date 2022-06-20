@@ -13,6 +13,15 @@ header {
     /* padding: 15px; */
 }
 
+.hero {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../assets/images/beachBanner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 .flex-container {
     display: flex;
     flex-wrap:wrap;
@@ -29,6 +38,7 @@ header {
     max-width: fit-content;
     margin: 2% 0%;
     padding-left: 5%;
+    padding-right: 2%;
     position:relative;
     
 }
