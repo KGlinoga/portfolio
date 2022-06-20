@@ -1,0 +1,40 @@
+* {
+    background-color: pink;
+    color:darkslategray
+}
+
+.navbar {
+
+}
+
+/* placeholding - we don't yet know how to do a hamburger menu, but hopefully will by the time we submit this assignment! */
+.hamburger {
+
+}
+
+/* OK this one isn't working the way I'd like just yet..  */
+.navLinks{
+    color:cadetblue
+}
+
+.sectionTitles {
+    color: white;
+}
+
+card h3{
+    color: red;
+}
+/* YESSS we got the properties to cascade to all the cards! */
+
+/* .firstApp h3{
+    color: coral;
+} */
+
+/* .apps h3{
+    
+} */
+
+card p {
+    color: green;
+    font-size: large;
+}
