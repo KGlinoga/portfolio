@@ -9,9 +9,32 @@ body {
 }
 
 .header {
+    display: flex;
     padding: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: darkcyan;
-    color: whitesmoke
+    color: whitesmoke;
 }
 
+.header h1 {
+    display: flex;
+    justify-content: center;
+    background-color: darkslategray;
+    padding: 5%
+}
+
+.header li {
+    display: flex;
+
+}
+
+
+
+.hero-banner {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../assets/images/beachBanner.jpg");
+    background-size: cover;
+    background-position: center;
+}
