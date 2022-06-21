@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    /* padding: 15px; */
+   
 }
 
 .hero {
@@ -20,14 +20,28 @@ header {
     background-image: url("../assets/images/beachBanner.jpg");
     background-size: cover;
     background-position: center;
+    /* position: absolute; */
 }
 
+#subtitle {
+    background-color: pink;
+    left: 80px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
 .flex-container {
     display: flex;
     flex-wrap:wrap;
+    justify-content: center;
+    color: whitesmoke;
+    margin: 5% auto;
 }
+
 .navbar {
-    /* display: inline-block; */
+    display: flex;
+    flex-wrap: wrap;
     background-color: darkcyan;
     width: 100%;
     /* padding: 15px 15px 15px 0; */
@@ -51,6 +65,8 @@ header {
 /* OK this one isn't working the way I'd like just yet..  */
 
 .navLinks li{
+    /* display: flex;
+    flex-wrap: wrap; */
     color:whitesmoke;
     background-color: darkcyan;
     display: inline;
@@ -63,8 +79,14 @@ header {
 .navbar h3 {
     position: relative;
 }
-.sectionTitles {
+/* .sectionTitles {
     color: white;
+    text-align: center; }*/
+ 
+.blurb {
+    display: flex;
+    flex-wrap:wrap;
+    flex: 1 0 200px;
 }
 
 card h3{

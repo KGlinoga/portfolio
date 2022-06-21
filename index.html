@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header class="flex-container">
+    <header>
         <nav class="navbar">
             <h1>Kristina Glinoga</h1>
             <!-- For Mobile-first we need a hamburger or other action-based menu for these links. And THEN we can worry about styling for a tablet or desktop. -->
@@ -21,20 +21,21 @@
             </ul>
             <div class="hero"></div>
             <!-- <img src="./assets/images/beachBanner.jpg" alt="Beautiful beach shot from above." width="100%"> -->
-            <h3>"cool subtitle that should lay on top of hero image"</h3>
+            <h3 id="subtitle">"cool subtitle that should lay on top of hero image"</h3>
+            <!-- OK i'm bummed but we gotta move on from this and come back; it's supposed to overlay ontop of the hero image. -->
         </nav>
     </header>        
     <main>
-        <section 1>
-            <header>
+        <section>
+            <header class="flex-container">
                 <h2 class="sectionTitles">About Me</h2>
             </header>
-            <p>Intro blurb for Kristina Mr. Collins and Charlotte were both standing at the gate in conversation with the ladies; and Sir William, to Elizabeth’s high diversion, was stationed in the doorway, in earnest contemplation of the greatness before him, and constantly bowing whenever Miss de Bourgh looked that way.</p>
+            <p class="blurb">Intro blurb for Kristina Mr. Collins and Charlotte were both standing at the gate in conversation with the ladies; and Sir William, to Elizabeth’s high diversion, was stationed in the doorway, in earnest contemplation of the greatness before him, and constantly bowing whenever Miss de Bourgh looked that way.</p>
         </section About Me>
         <!-- could repeat CSS here?? So we gotta figure out that one first! -->
         <section Work>
             <header>
-                <h2 class="sectionTitles">Work</h2>
+                <h2 class="flex-container">Work</h2>
             </header>
     
         <card First App class="firstApp">
@@ -72,7 +73,7 @@
     </section Work>
     </main>
     <footer>
-        <header class="titles">
+        <header class="flex-container">
             <h2>Contact Me</h2>
         </header>
         <ul class="contactInfo">
