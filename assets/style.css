@@ -4,32 +4,44 @@
     margin: 0;
 }
 
+:root {
+    --primary: pink;
+    --secondary: darkcyan;
+    --main-text: darkslategray;
+    --title-text: whitesmoke;
+}
 body {
     background-color: pink;
 }
 
+header {
+    display: flexbox;
+    
+}
 .header {
     display: flex;
-    padding: 20px;
+    flex-wrap: wrap;
+    /* padding: 20px; */
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: darkcyan;
     color: whitesmoke;
 }
 
 .header h1 {
-    display: flex;
-    justify-content: center;
+    display: flexbox;
     background-color: darkslategray;
-    padding: 5%
+    padding: 2% 2% 2% 10%;
 }
 
 .header li {
-    display: flex;
+    display: inline-flex;
+    justify-content: end
 
 }
 
-
-
+.headshot {
+     
+}
 .hero-banner {
     height: 300px;
     width: 100%;
@@ -38,3 +50,49 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+/* putting this bit on hold until we get the listed acceptance criteria done. */
+/* .hero-banner h2 {
+    color:whitesmoke;
+    background-color: darkcyan;
+} */
+
+.page-section {
+    display:flexbox;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.page-section h2 {
+    color: var(--main-text);
+    display: flex;
+}
+
+.page-section p {
+    display: flex;
+    color: var(--main-text);
+    height: fit-content;
+    width: 60%;
+}
+
+    #work {
+
+}
+
+    .card1 {
+    background: var(--secondary);
+    width: 30em;
+    height: 10em;
+    border: 5px solid var(--secondary); 
+    margin: 1em;
+}
+
+    .project-cards {
+    background: var(--secondary);
+    width: 45%;
+    height: 5em;
+    border: 5px solid var(--secondary);
+    margin: 1em;
+}
+
+
