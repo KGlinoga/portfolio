@@ -76,6 +76,7 @@ body {
 .container p {
     display: flex;
     flex-wrap: wrap;
+    background-color: var(--primary);
     color: var(--main-text);
     height: fit-content;
     width: 80%;
@@ -96,11 +97,24 @@ body {
         border: 5px solid var(--secondary); 
        margin: .25em;
        /* height: 300px; */
+    }
+
+#landing-page h3 {
+    display: inline-flex;
+    background-color: var(--secondary);
+    color: var(--title-text)
+}
+
+#landing-page p {
+    width: fit-content;
+    font-size: small;
+    color: var(--title-text)
+}
 
     /* background-image: url("../assets/images/beachBanner.jpg");
     background-size: cover;
     background-position: center; */
-}
+
 
     .project-cards {
         display: flex;
@@ -110,6 +124,19 @@ body {
         height: 5em;
         border: 5px solid var(--secondary);
         margin: .25em;
+        
+}
+
+.project-cards h3, p {
+    display: inline-flex;
+    background-color: var(--secondary);
+    color: var(--title-text)
+}
+
+.project-cards p {
+    font-size: small;
+    color: var(--title-text);
+    width: fit-content;
 }
 
 #landing-page {
@@ -122,7 +149,34 @@ body {
 }
 
 #code-refactor {
+    height: 4.5em;
+    width: 100%;
+    margin-bottom: 25px;
     background-image: url("../assets/images/SS\ Code\ Refactor.png");
+    background-size: cover;
+    background-position: center; 
+}
+
+#project-three {
+    height: 4.5em;
+    width: 100%;
+    background-image: url("../assets/images/SS\ Misc\ Code.png");
+    background-size: cover;
+    background-position: center; 
+}
+
+#project-four {
+    height: 4.5em;
+    width: 100%;
+    background-image: url("../assets/images/SS\ Misc\ Code.png");
+    background-size: cover;
+    background-position: center; 
+}
+
+#project-five {
+    height: 4.5em;
+    width: 100%;
+    background-image: url("../assets/images/SS\ Misc\ Code.png");
     background-size: cover;
     background-position: center; 
 }
