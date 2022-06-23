@@ -59,6 +59,7 @@ body {
     flex-wrap:wrap;
     justify-content: center;
     padding: 5%;
+    
 }
 
 .container h2 {
@@ -69,6 +70,7 @@ body {
     text-align: right;
     border-right: 2px solid var(--main-text);
     padding-right: 2%;
+    z-index: 1;
 }
 
 .container p {
@@ -93,6 +95,11 @@ body {
         height: 10em;
         border: 5px solid var(--secondary); 
        margin: .25em;
+       /* height: 300px; */
+
+    /* background-image: url("../assets/images/beachBanner.jpg");
+    background-size: cover;
+    background-position: center; */
 }
 
     .project-cards {
@@ -103,6 +110,21 @@ body {
         height: 5em;
         border: 5px solid var(--secondary);
         margin: .25em;
+}
+
+#landing-page {
+    height: 9.5em;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../assets/images/SS\ Landing\ Page.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#code-refactor {
+    background-image: url("../assets/images/SS\ Code\ Refactor.png");
+    background-size: cover;
+    background-position: center; 
 }
 
 .footer {
