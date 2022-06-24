@@ -2,7 +2,10 @@
 Initial build on a future portfolio. 
 
   This portfolio serves two purposes: 
+  <br>
+  <br>
     1. To demonstrate some proficiency in HTML, advanced CSS, and GitHub.
+  <br>  
     2. To showcase current and future web development work for potential employers and clients.
   
   Although it does remain technically incomplete (more on this later) the webpage does satisfactorily accomplish both of the above goals. 
